@@ -1,0 +1,15 @@
+C:\Users\ianco\source\repos\connectchildcarev6\bin\Debug\connectchildcarev6.exe.config
+C:\Users\ianco\source\repos\connectchildcarev6\bin\Debug\connectchildcarev6.exe.manifest
+C:\Users\ianco\source\repos\connectchildcarev6\bin\Debug\connectchildcarev6.application
+C:\Users\ianco\source\repos\connectchildcarev6\bin\Debug\connectchildcarev6.exe
+C:\Users\ianco\source\repos\connectchildcarev6\bin\Debug\connectchildcarev6.pdb
+C:\Users\ianco\source\repos\connectchildcarev6\bin\Debug\connectchildcarev6.xml
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.vbprojAssemblyReference.cache
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.Resources.resources
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.vbproj.GenerateResource.cache
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.vbproj.CoreCompileInputs.cache
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.exe.manifest
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.application
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.exe
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.xml
+C:\Users\ianco\source\repos\connectchildcarev6\obj\Debug\connectchildcarev6.pdb
