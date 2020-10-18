@@ -15,7 +15,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>publish\</PublishUrl>
+    <PublishUrl>C:\ClickOnceCC1010\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>1.0.1.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -76,10 +76,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ProjLocation>C:\Users\ian.collis\source\repos\WindowsApp3\WindowsApp3</ProjLocation>
+    <ProjLocation>C:\Source\connectchildcarev6</ProjLocation>
     <ProjLocationReleaseDir>$(ProjLocation)\bin\Debug</ProjLocationReleaseDir>
     <ProjPublishLocation>$(ProjLocationReleaseDir)\app.publish</ProjPublishLocation>
-    <DeploymentFolder>C:\ClickOnceCC6630</DeploymentFolder>
+    <DeploymentFolder>C:\ClickOnceCC1010\</DeploymentFolder>
   </PropertyGroup>
   <Target Name="AutoPublish" DependsOnTargets="Clean">
     <MSBuild Projects="$(ProjLocation)\$(ProjectName).vbproj"

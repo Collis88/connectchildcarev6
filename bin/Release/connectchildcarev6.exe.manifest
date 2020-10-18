@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="connectchildcarev6.exe" size="12768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="connectchildcarev6.exe" size="12256">
       <assemblyIdentity name="connectchildcarev6" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KRJa4sG9C2YJkHG+LEYG6Vu2C0Vrla/0nwOMXv6N5hc=</dsig:DigestValue>
+        <dsig:DigestValue>DMrTg2cl2T9TOAjZ2M2ZbOI/I/NLI91QTekTOGJzmCQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

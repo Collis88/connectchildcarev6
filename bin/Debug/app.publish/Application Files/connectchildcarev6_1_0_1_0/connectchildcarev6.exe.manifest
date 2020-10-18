@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="connectchildcarev6.exe" version="1.0.1.0" publicKeyToken="f03b69f684f1dea6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="connectchildcarev6" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="connectchildcarev6.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="connectchildcarev6.exe" size="12768">
+      <assemblyIdentity name="connectchildcarev6" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KRJa4sG9C2YJkHG+LEYG6Vu2C0Vrla/0nwOMXv6N5hc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="connectchildcarev6.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-U9JC7HH\ianco" issuerKeyHash="294c44ba65e21e51138c9316f38f355b951def15" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CJEN+CnrJZMGhV19xjGGAo/LKw8oLMh9nSTsqX5O4+4=</DigestValue></Reference></SignedInfo><SignatureValue>sU0JZnferjerx9T/DWb8R5hQ75iTq2uI+lX98cOELJh47GMfeJeNVpe9zMWbKWrtnkSdfyKH+T09qbjsl+MVSV7o1BqNx7q3wcDBNwqp5zCDmbPJEl8T8UDy2tOpawxxGs7XwtXzkg/CJombwINFIUe5QX8fgYBsZMzLgntqWzs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>67hlt5ron52oF9K5CAitv/knyf/AXpFTeCcy1k76iCLxZj2cbdAb3qDO5kZjgAizBe16BisPD9bKpL6G+iGPU0EkKPycewTAVM91L4cMp1/Pfs03jj82vM6Y+dEdEsl16TK5khIsoo6Mat0q5Pg/m0kalW+RnertM0TIZHK0EKk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eee34e7ea9ec249d7dc82c280f2bcb8f028631c67d5d85069325eb29f80d9108" Description="" Url=""><as:assemblyIdentity name="connectchildcarev6.exe" version="1.0.1.0" publicKeyToken="f03b69f684f1dea6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-U9JC7HH\ianco</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CPnPbGKsvQMczpR0b3Sodq2iWdrgJ/kVF/RRXpAaNrQ=</DigestValue></Reference></SignedInfo><SignatureValue>tsJsx7efql1Yw0lATp09MSSzvJOpJOQ0dswe+QU5tzXIyJdwh3qQuBs+t9CIRnouIIAeNP7nBGlpeKuHz0bCToS/oabUREH78D6iOAO/6DL9iMe6IQJEmmyEIAdk4nGtrnA5kaXSSKWdZTIgiasDCT5mODIMTA/kGi767pCi0kY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>67hlt5ron52oF9K5CAitv/knyf/AXpFTeCcy1k76iCLxZj2cbdAb3qDO5kZjgAizBe16BisPD9bKpL6G+iGPU0EkKPycewTAVM91L4cMp1/Pfs03jj82vM6Y+dEdEsl16TK5khIsoo6Mat0q5Pg/m0kalW+RnertM0TIZHK0EKk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcGaEUmOQ47dB/eAsm5JDCzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUAOQBKAEMANwBIAEgAXABpAGEAbgBjAG8wHhcNMjAxMDE4MTgzMDEzWhcNMjExMDE5MDAzMDEzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUAOQBKAEMANwBIAEgAXABpAGEAbgBjAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOu4Zbea6J+dqBfSuQgIrb/5J8n/wF6RU3gnMtZO+ogi8WY9nG3QG96gzuZGY4AIswXtegYrDw/WyqS+hvohj1NBJCj8nHsEwFTPdS+HDKdfz37NN44/NrzOmPnRHRLJdekyuZISLKKOjGrdKuT4P5tJGpVvkZ3q7TNEyGRytBCpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEALjGAdYXZjDSHbFHk0AOzmY7UgHgI75+NiwMajibw4XreZqjpSLfr3HGqn3UWLTLkk+W7kbj93x2acoxENG0IsCuYshpOASicNo/NfhbAvSWBmQLuRMO59wiOXpCuqpinvj/Wf083Lkhd1ThooPMjTRu5dCYVbs+F662eo7/HeCs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
